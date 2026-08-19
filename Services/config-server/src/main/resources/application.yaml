@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Users/Lavish/Desktop/Ecommerce-Backend/ecommerce-config
+          default-label: master
+
+server:
+  port: 8889
+
